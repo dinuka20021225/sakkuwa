@@ -8,7 +8,7 @@ Expenz is a Flutter application designed to help users track their expenses and 
 * Data Visualization: Incorporates charts for intuitive data tracking and analysis.
 * Onboarding Screens: Welcomes users with informative onboarding screens for a smooth introduction to the app.
 
-![Alt text]()
+<img src="" alt="img"/>
 
 
 A few resources to get you started if this is your first Flutter project:
