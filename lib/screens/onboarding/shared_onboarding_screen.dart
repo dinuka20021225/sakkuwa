@@ -17,7 +17,7 @@ class SharedOnboardingScreen extends StatelessWidget {
     return Column(
       children: [
         Animate(
-          effects: [FadeEffect(), ScaleEffect()],
+          effects: const [FadeEffect(), ScaleEffect()],
           child: Image.asset(
             image,
             fit: BoxFit.cover,
@@ -28,10 +28,10 @@ class SharedOnboardingScreen extends StatelessWidget {
           height: 30,
         ),
         Animate(
-          effects: [FadeEffect(), ScaleEffect()],
+          effects: const [FadeEffect(), ScaleEffect()],
           child: Text(
             title,
-            style: TextStyle(
+            style: const TextStyle(
               fontFamily: "title",
               height: 1.2,
               fontSize: 35,
@@ -44,10 +44,10 @@ class SharedOnboardingScreen extends StatelessWidget {
           height: 20,
         ),
         Animate(
-          effects: [FadeEffect(), ScaleEffect()],
+          effects: const [FadeEffect(), ScaleEffect()],
           child: Text(
             description,
-            style: TextStyle(
+            style: const TextStyle(
               //fontFamily: "title",
               fontSize: 16,
               height: 1.6,

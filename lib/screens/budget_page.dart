@@ -162,7 +162,7 @@ class _BudgetPageState extends State<BudgetPage> {
                           ),
                           // ----------- Pie chart --------------//
                           Animate(
-                            effects: [FadeEffect(), ScaleEffect()],
+                            effects: const [FadeEffect(), ScaleEffect()],
                             child: CustomPieChart(
                               expenseCategoryTotal: widget.expenseCategoryTotal,
                               incomeCategoryTotal: widget.incomeCategoryTotal,

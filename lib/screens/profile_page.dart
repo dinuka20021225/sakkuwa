@@ -153,13 +153,13 @@ class _ProfilePageState extends State<ProfilePage> {
                                   child: Padding(
                                     padding: const EdgeInsets.all(4),
                                     child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(100),
                                       child: Image.asset(
                                         "assets/images/dinuka.jpg",
                                         width: 60,
                                         height: 60,
                                         fit: BoxFit.cover,
                                       ),
-                                      borderRadius: BorderRadius.circular(100),
                                     ),
                                   ),
                                 ),
@@ -208,9 +208,9 @@ class _ProfilePageState extends State<ProfilePage> {
                   child: Column(
                     children: [
                       // Animated ProfileCards
-                      AnimationConfiguration.staggeredList(
+                      const AnimationConfiguration.staggeredList(
                         position: 1,
-                        duration: const Duration(milliseconds: 500),
+                        duration: Duration(milliseconds: 500),
                         child: SlideAnimation(
                           verticalOffset: 50.0,
                           child: FadeInAnimation(
@@ -223,9 +223,9 @@ class _ProfilePageState extends State<ProfilePage> {
                         ),
                       ),
                       const SizedBox(height: 10),
-                      AnimationConfiguration.staggeredList(
+                      const AnimationConfiguration.staggeredList(
                         position: 2,
-                        duration: const Duration(milliseconds: 500),
+                        duration: Duration(milliseconds: 500),
                         child: SlideAnimation(
                           verticalOffset: 50.0,
                           child: FadeInAnimation(
@@ -238,9 +238,9 @@ class _ProfilePageState extends State<ProfilePage> {
                         ),
                       ),
                       const SizedBox(height: 10),
-                      AnimationConfiguration.staggeredList(
+                      const AnimationConfiguration.staggeredList(
                         position: 3,
-                        duration: const Duration(milliseconds: 500),
+                        duration: Duration(milliseconds: 500),
                         child: SlideAnimation(
                           verticalOffset: 50.0,
                           child: FadeInAnimation(
@@ -257,9 +257,9 @@ class _ProfilePageState extends State<ProfilePage> {
                         onTap: () {
                           _showBottomSheet(context);
                         },
-                        child: AnimationConfiguration.staggeredList(
+                        child: const AnimationConfiguration.staggeredList(
                           position: 4,
-                          duration: const Duration(milliseconds: 500),
+                          duration: Duration(milliseconds: 500),
                           child: SlideAnimation(
                             verticalOffset: 50.0,
                             child: FadeInAnimation(

@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class IncomeService {
   // 1st STEP: define a key for store income to shared preferences
-  static String _incomeKey = "income";
+  static final String _incomeKey = "income";
 
   // 2nd STEP: save the income to shared preferences
   Future<void> saveIncome(Income income, BuildContext context) async {

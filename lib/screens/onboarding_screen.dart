@@ -53,7 +53,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           });
                         },
                         children: [
-                          Onboarding1(),
+                          const Onboarding1(),
                           SharedOnboardingScreen(
                             image: OnboardingData.onboardingData[0].image,
                             title: OnboardingData.onboardingData[0].title,
@@ -77,7 +77,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     ),
                     // ------ Page Dot Indicators -------//
                     Container(
-                      alignment: Alignment(0, 0.65),
+                      alignment: const Alignment(0, 0.65),
                       child: SmoothPageIndicator(
                         controller: _controller,
                         count: 4,
@@ -115,7 +115,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                        builder: (context) => DetailsPage(),
+                                        builder: (context) => const DetailsPage(),
                                       ),
                                     );
                                   },

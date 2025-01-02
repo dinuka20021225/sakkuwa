@@ -18,10 +18,10 @@ final Map<IncomeCategory, String> incomeCategoryImages = {
 
 // income category colors
 final Map<IncomeCategory, Color> incomeCategoryColor = {
-  IncomeCategory.Salary: Color(0xff118ab2),
+  IncomeCategory.Salary: const Color(0xff118ab2),
   IncomeCategory.Freelance: lightBlue2,
-  IncomeCategory.Passive: Color(0xff06d6a0),
-  IncomeCategory.Sales: Color(0xffffd166),
+  IncomeCategory.Passive: const Color(0xff06d6a0),
+  IncomeCategory.Sales: const Color(0xffffd166),
 };
 
 class Income {

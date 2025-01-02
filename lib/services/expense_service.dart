@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class ExpenseService {
   // define a key store expenses in shared preferences
-  static String _expensekey = "expenses";
+  static final String _expensekey = "expenses";
 
   // save the expense to shared preferences
   Future<void> saveExpenses(Expense expense, BuildContext context) async {

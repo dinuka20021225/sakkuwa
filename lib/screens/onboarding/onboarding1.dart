@@ -13,7 +13,7 @@ class Onboarding1 extends StatelessWidget {
         //mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Animate(
-            effects: [FadeEffect(), ScaleEffect()],
+            effects: const [FadeEffect(), ScaleEffect()],
             child: Image.asset(
               "assets/images/logo.png",
               width: 450,

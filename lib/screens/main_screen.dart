@@ -140,7 +140,7 @@ class _MainScreenState extends State<MainScreen> {
         expenseCategoryTotal: calculateExpenseCategories(),
         incomeCategoryTotal: calculateIncomeCategories(),
       ),
-      ProfilePage(),
+      const ProfilePage(),
     ];
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
@@ -161,13 +161,13 @@ class _MainScreenState extends State<MainScreen> {
           });
         },
         items: [
-          BottomNavigationBarItem(
+          const BottomNavigationBarItem(
             icon: FaIcon(
               FontAwesomeIcons.house,
             ),
             label: "uq,a msgqj",
           ),
-          BottomNavigationBarItem(
+          const BottomNavigationBarItem(
             icon: FaIcon(
               FontAwesomeIcons.moneyBillTransfer,
             ),
@@ -177,11 +177,11 @@ class _MainScreenState extends State<MainScreen> {
             icon: Container(
               width: 60,
               height: 60,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 shape: BoxShape.circle,
                 color: yellowColor,
               ),
-              child: Center(
+              child: const Center(
                 child: FaIcon(
                   FontAwesomeIcons.plus,
                   color: blackColor,
@@ -190,13 +190,13 @@ class _MainScreenState extends State<MainScreen> {
             ),
             label: "",
           ),
-          BottomNavigationBarItem(
+          const BottomNavigationBarItem(
             icon: FaIcon(
               FontAwesomeIcons.chartPie,
             ),
             label: "jd¾;d",
           ),
-          BottomNavigationBarItem(
+          const BottomNavigationBarItem(
             icon: FaIcon(
               FontAwesomeIcons.solidUser,
             ),

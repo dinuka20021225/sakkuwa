@@ -247,6 +247,7 @@ class _AddPageState extends State<AddPage> {
                                     if (value!.isEmpty) {
                                       return "කරුණාකර මාතෘකාව ඇතුලත් කරන්න";
                                     }
+                                    return null;
                                   },
                                   maxLength: 10,
                                   controller: _titleController,
@@ -266,6 +267,7 @@ class _AddPageState extends State<AddPage> {
                                     if (value!.isEmpty) {
                                       return "කරුණාකර විස්තර​ය ඇතුලත් කරන්න";
                                     }
+                                    return null;
                                   },
                                   controller: _descriptionController,
                                   decoration: InputDecoration(

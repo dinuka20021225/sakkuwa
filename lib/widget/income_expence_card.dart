@@ -25,7 +25,7 @@ class _IncomeExpenceCardState extends State<IncomeExpenceCard> {
   @override
   Widget build(BuildContext context) {
     return Animate(
-      effects: [FadeEffect(), ScaleEffect()],
+      effects: const [FadeEffect(), ScaleEffect()],
       child: Container(
         width: MediaQuery.of(context).size.width * 0.45,
         decoration: BoxDecoration(
@@ -51,7 +51,7 @@ class _IncomeExpenceCardState extends State<IncomeExpenceCard> {
                 children: [
                   Text(
                     widget.title,
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: whiteColor,
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
@@ -59,7 +59,7 @@ class _IncomeExpenceCardState extends State<IncomeExpenceCard> {
                   ),
                   Text(
                     "Rs.${widget.amount.toStringAsFixed(0)}",
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: whiteColor,
                       fontSize: 20,
                       fontWeight: FontWeight.bold,

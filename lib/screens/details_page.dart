@@ -109,6 +109,7 @@ class _DetailsPageState extends State<DetailsPage> {
                             if (value!.isEmpty) {
                               return "කරුණාකර ඔබගේ ඊමේල් එක ඇතුලත් කරන්න";
                             }
+                            return null;
                           },
                           decoration: InputDecoration(
                             border: OutlineInputBorder(
@@ -140,6 +141,7 @@ class _DetailsPageState extends State<DetailsPage> {
                             if (value!.isEmpty) {
                               return "කරුණාකර ඔබගේ මුරපද ඇතුලත් කරන්න";
                             }
+                            return null;
                           },
                           obscureText: true,
                           decoration: InputDecoration(
@@ -172,6 +174,7 @@ class _DetailsPageState extends State<DetailsPage> {
                             if (value!.isEmpty) {
                               return "කරුණාකර ඔබගෙ පාස්වර්ඩ් එක නැවත ඇතුලත් කරන්න";
                             }
+                            return null;
                           },
                           obscureText: true,
                           decoration: InputDecoration(
@@ -250,7 +253,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(builder: (context) {
-                                    return MainScreen();
+                                    return const MainScreen();
                                   }),
                                 );
                               }

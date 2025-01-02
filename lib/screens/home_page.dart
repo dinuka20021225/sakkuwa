@@ -107,14 +107,14 @@ class _HomePageState extends State<HomePage> {
                                         child: Padding(
                                           padding: const EdgeInsets.all(4),
                                           child: ClipRRect(
+                                            borderRadius:
+                                                BorderRadius.circular(100),
                                             child: Image.asset(
                                               "assets/images/dinuka.jpg",
                                               width: 50,
                                               height: 50,
                                               fit: BoxFit.cover,
                                             ),
-                                            borderRadius:
-                                                BorderRadius.circular(100),
                                           ),
                                         ),
                                       ),
@@ -146,7 +146,7 @@ class _HomePageState extends State<HomePage> {
                                       const SizedBox(
                                         width: 30,
                                       ),
-                                      Spacer(),
+                                      const Spacer(),
                                       IconButton(
                                           onPressed: () {},
                                           icon: const FaIcon(
@@ -202,7 +202,7 @@ class _HomePageState extends State<HomePage> {
                                   height: 15,
                                 ),
                                 // Line chart
-                                LineChartSample(),
+                                const LineChartSample(),
                                 const SizedBox(
                                   height: 10,
                                 ),
@@ -227,10 +227,10 @@ class _HomePageState extends State<HomePage> {
                                               MaterialPageRoute(
                                                 builder: (context) =>
                                                     TransactionPage(
-                                                  expensesList: [],
+                                                  expensesList: const [],
                                                   onDismissedExpense:
                                                       (Expense) {},
-                                                  incomeList: [],
+                                                  incomeList: const [],
                                                   onDismissedIncome:
                                                       (Income) {},
                                                 ),
