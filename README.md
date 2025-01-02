@@ -1,6 +1,6 @@
 # Sakkuwa
 
-Expenz is a Flutter application designed to help users track their expenses and incomes efficiently. With its user-friendly interface and robust features, managing your finances becomes hassle-free.
+Sakkuwa is a Flutter application designed to help users track their expenses and incomes efficiently. With its user-friendly interface and robust features, managing your finances becomes hassle-free.
 
 ## Features
 * Expense Tracking: Record your expenses and incomes effortlessly.
